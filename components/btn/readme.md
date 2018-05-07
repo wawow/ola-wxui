@@ -46,7 +46,6 @@ inverse
 ```
 ### 按钮并列
 fit
-`需要在oLaBtnGroup组件中使用`
 ```
 <oLaBtn type="primary" fit>按钮并列一行</oLaBtn>
 <oLaBtn type="warn" fit>按钮并列一行</oLaBtn>
