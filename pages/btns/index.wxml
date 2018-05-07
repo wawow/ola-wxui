@@ -28,21 +28,26 @@
         <oLaBtn loading>加载中</oLaBtn>
     </oLaBtnGroup>
 </oLaPanel>
-<oLaPanel title="大按钮">
+<oLaPanel title="并列大按钮">
     <oLaBtnGroup>
         <oLaBtn type="primary" size="md" fit>确认</oLaBtn>
         <oLaBtn type="primary" size="md" fit inverse>取消</oLaBtn>
     </oLaBtnGroup>
 </oLaPanel>
-<oLaPanel title="中按钮">
+<oLaPanel title="并列中按钮">
     <oLaBtnGroup>
         <oLaBtn type="primary" size="sm" fit>确认</oLaBtn>
         <oLaBtn type="primary" size="sm" fit inverse>取消</oLaBtn>
     </oLaBtnGroup>
 </oLaPanel>
-<oLaPanel title="小按钮">
+<oLaPanel title="并列小按钮">
     <oLaBtnGroup>
         <oLaBtn type="primary" size="xs" fit>确认</oLaBtn>
         <oLaBtn type="primary" size="xs" fit inverse>取消</oLaBtn>
+    </oLaBtnGroup>
+</oLaPanel>
+<oLaPanel title="自定义按钮样式">
+    <oLaBtnGroup>
+        <oLaBtn classStyle="width:300rpx;float:left;font-size:40rpx;color:#5797FB;">确认</oLaBtn>
     </oLaBtnGroup>
 </oLaPanel>

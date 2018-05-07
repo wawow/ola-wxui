@@ -64,6 +64,13 @@ loading
 ```
 <oLaBtn loading>加载中</oLaBtn>
 ```
+
+### 按钮isLast
+按钮isLast
+```
+<oLaBtn isLast>单个按钮不加下边距</oLaBtn>
+```
+
 ### 按钮自定义样式
 classStyle
 ```
