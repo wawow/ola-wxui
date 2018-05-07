@@ -9,7 +9,7 @@
 ```
 ## 代码示例
 ### 效果展示
-![button-all](https://www.maxappa.com/ola/button/button-all.jpg)
+![button-all](https://github.com/wawow/olapic/raw/master/button/button-all.jpg)
 ### 默认按钮
 ```
 <oLaBtn>这是一个按钮</oLaBtn>
