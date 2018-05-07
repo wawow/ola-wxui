@@ -1,4 +1,9 @@
 <!--index.wxml-->
+<oLaPanel title="基础按钮">
+    <oLaBtnGroup>
+        <oLaBtn>基础按钮</oLaBtn>
+    </oLaBtnGroup>
+</oLaPanel>
 <oLaPanel title="标准按钮">
     <oLaBtnGroup>
         <oLaBtn type="primary">标准按钮</oLaBtn>
