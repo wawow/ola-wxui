@@ -1,0 +1,43 @@
+<!--index.wxml-->
+<oLaPanel title="标准按钮">
+    <oLaBtnGroup>
+        <oLaBtn type="primary">标准按钮</oLaBtn>
+        <oLaBtn type="primary" inverse>标准按钮</oLaBtn>
+    </oLaBtnGroup>
+</oLaPanel>
+<oLaPanel title="警告按钮">
+    <oLaBtnGroup>
+        <oLaBtn type="warn">警告按钮</oLaBtn>
+        <oLaBtn type="warn" inverse>警告按钮</oLaBtn>
+    </oLaBtnGroup>
+</oLaPanel>
+<oLaPanel title="错误按钮">
+    <oLaBtnGroup>
+        <oLaBtn type="danger">错误按钮</oLaBtn>
+        <oLaBtn type="danger" inverse>错误按钮</oLaBtn>
+    </oLaBtnGroup>
+</oLaPanel>
+<oLaPanel title="功能按钮">
+    <oLaBtnGroup>
+        <oLaBtn disabled>禁用按钮</oLaBtn>
+        <oLaBtn loading>加载中</oLaBtn>
+    </oLaBtnGroup>
+</oLaPanel>
+<oLaPanel title="大按钮">
+    <oLaBtnGroup>
+        <oLaBtn type="primary" size="md" fit>确认</oLaBtn>
+        <oLaBtn type="primary" size="md" fit inverse>取消</oLaBtn>
+    </oLaBtnGroup>
+</oLaPanel>
+<oLaPanel title="中按钮">
+    <oLaBtnGroup>
+        <oLaBtn type="primary" size="sm" fit>确认</oLaBtn>
+        <oLaBtn type="primary" size="sm" fit inverse>取消</oLaBtn>
+    </oLaBtnGroup>
+</oLaPanel>
+<oLaPanel title="小按钮">
+    <oLaBtnGroup>
+        <oLaBtn type="primary" size="xs" fit>确认</oLaBtn>
+        <oLaBtn type="primary" size="xs" fit inverse>取消</oLaBtn>
+    </oLaBtnGroup>
+</oLaPanel>

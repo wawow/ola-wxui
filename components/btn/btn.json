@@ -1,0 +1,6 @@
+{
+    "component": true,
+    "usingComponents": {
+        "oLaPanel": "/components/panel/panel"
+    }
+}

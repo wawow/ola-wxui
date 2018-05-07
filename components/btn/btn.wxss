@@ -1,0 +1,136 @@
+.oLa-btn {
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 20rpx;
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+    border-radius: 3px;
+    font-size: 32rpx;
+    line-height: 80rpx;
+    height: 80rpx;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.oLa-btn::after {
+    border-color: #ababab;
+}
+
+.oLa-btn--primary {
+    color: #fff;
+    background-color: #5797FB;
+}
+
+.oLa-btn--primary::after {
+    border-color: #5797FB;
+}
+
+.oLa-btn--warn {
+    color: #fff;
+    background-color: #FFA023;
+}
+
+.oLa-btn--warn::after {
+    border-color: #FFA023;
+}
+
+.oLa-btn--danger {
+    color: #fff;
+    background-color: #f44;
+}
+
+.oLa-btn--danger::after {
+    border-color: #e33;
+}
+
+.oLa-btn--inverse.oLa-btn {
+    background-color: transparent;
+}
+
+.oLa-btn--inverse.oLa-btn--primary {
+    color: #5797FB;
+}
+
+.oLa-btn--inverse.oLa-btn--warn {
+    color: #FFA023;
+}
+
+.oLa-btn--inverse.oLa-btn--danger {
+    color: #f44;
+}
+
+.oLa-btn--md {
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 32rpx;
+}
+
+.oLa-btn--sm {
+    height: 60rpx;
+    line-height: 60rpx;
+    font-size: 28rpx;
+    padding-left: 25rpx;
+    padding-right: 25rpx;
+}
+
+.oLa-btn--xs {
+    line-height: 50rpx;
+    height: 50rpx;
+    font-size: 24rpx;
+    padding-left: 20rpx;
+    padding-right: 20rpx;
+}
+
+.oLa-btn--fit {
+    display: inline-block;
+    margin-right: 20rpx;
+    margin-bottom: 0;
+}
+
+.button-hover {
+    opacity: 0.85;
+}
+
+.oLa-btn--loading {
+    width: 34rpx;
+    height: 34rpx;
+    display: inline-block;
+    border: 2px solid #666;
+    border-color: #666 #e5e5e5 #e5e5e5 #e5e5e5;
+    border-radius: 17rpx;
+    box-sizing: border-box;
+    animation: btn-spin 0.7s linear;
+    animation-iteration-count: infinite;
+    opacity: 1;
+    vertical-align: middle;
+    margin-top: -4rpx;
+    margin-right: 10rpx;
+}
+@keyframes btn-spin {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.oLa-btn.oLa-btn--disabled {
+    color: #999!important;
+    background: #f8f8f8!important;
+    border-color: #e5e5e5!important;
+    cursor: not-allowed!important;
+    opacity: 1!important;
+}
+
+.oLa-btn.oLa-btn--disabled::after {
+    border-color: #e5e5e5!important;
+}
+
+.oLa-btn--last-child {
+    margin-bottom: 0;
+    margin-right: 0;
+}

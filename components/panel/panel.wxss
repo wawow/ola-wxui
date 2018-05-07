@@ -1,0 +1,38 @@
+.oLa-panel {
+    position: relative;
+    overflow: hidden;
+}
+
+.oLa-panel--title {
+    font-size: 32rpx;
+    line-height: 1;
+    color: #999;
+    padding: 30rpx;
+}
+
+.oLa-panel--content {
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+    padding: 20rpx;
+}
+
+.oLa-panel--content:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    transform: scale(.5);
+    transform-origin: 0 0;
+    pointer-events: none;
+    box-sizing: border-box;
+    border: 0 solid #eee;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+.oLa-panel--none-border:after {
+    border: 0 none;
+}

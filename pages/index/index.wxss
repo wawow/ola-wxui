@@ -1,0 +1,14 @@
+/**index.wxss**/
+.box {
+    display: flex;
+    margin: 0 20rpx;
+}
+
+.box-item {
+    flex: 1;
+    margin-right: 20rpx;
+}
+
+.box-item:last-child {
+    margin-right: 0;
+}

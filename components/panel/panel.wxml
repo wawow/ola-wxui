@@ -1,0 +1,6 @@
+<view class="oLa-panel">
+    <view wx:if="{{ title }}" class="oLa-panel--title">{{ title }}</view>
+    <view class="oLa-panel--content {{ hideBorder ? 'oLa-panel--none-border' : '' }}">
+        <slot></slot>
+    </view>
+</view>

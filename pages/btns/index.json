@@ -1,0 +1,8 @@
+{
+    "navigationBarTitleText": "按钮",
+    "usingComponents": {
+        "oLaBtn": "/components/btn/btn",
+        "oLaBtnGroup": "/components/btn-group/btn-group",
+        "oLaPanel": "/components/panel/panel"
+    }
+}

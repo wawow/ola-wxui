@@ -1,0 +1,3 @@
+<view class="oLa-btn-group">
+    <slot></slot>
+</view>
