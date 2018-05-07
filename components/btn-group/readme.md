@@ -10,6 +10,7 @@
 ```
 
 ## 代码示例
+```
 <oLaBtnGroup>
     <oLaBtn type="primary">标准按钮</oLaBtn>
     <oLaBtn type="primary" inverse>标准按钮</oLaBtn>
