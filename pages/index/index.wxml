@@ -1,9 +1,2 @@
 <!--index.wxml-->
-<view class="box">
-    <view class="box-item">
-        <oLaBtn type="primary" isLast>确认</oLaBtn>
-    </view>
-    <view class="box-item">
-        <oLaBtn type="primary" isLast inverse>取消</oLaBtn>
-    </view>
-</view>
+<oLaGrid grid="{{grids}}" num="4"></oLaGrid>

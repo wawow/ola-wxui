@@ -1,0 +1,10 @@
+<view class="oLa-grids">
+    <view class="oLa-grid oLa-grid--{{num}}" wx:for="{{grid}}" wx:for-item="grid" wx:key="unique" wx:for-index="index">
+        <navigator url="{{ grid.url }}" open-type="{{ grid.opentype ? grid.opentype : 'navigate' }}">
+            <view class="oLa-grid--icon">
+                <image class="oLa-grid--icon-pic" src="{{ grid.img }}"></image>
+            </view>
+            <view class="oLa-grid--label">{{ grid.text }}</view>
+        </navigator>
+    </view>
+</view>

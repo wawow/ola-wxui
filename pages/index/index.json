@@ -1,8 +1,9 @@
 {
-    "navigationBarTitleText": "oLa",
+    "navigationBarTitleText": "oLa-wxui",
     "usingComponents": {
         "oLaBtn": "/components/btn/btn",
         "oLaBtnGroup": "/components/btn-group/btn-group",
-        "oLaPanel": "/components/panel/panel"
+        "oLaPanel": "/components/panel/panel",
+        "oLaGrid": "/components/grid/grid"
     }
 }
