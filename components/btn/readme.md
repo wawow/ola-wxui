@@ -7,9 +7,13 @@
     "oLaBtn": "/components/btn/btn"
 }
 ```
-## 代码示例
-### 整体按钮效果展示
+2.在wxml中直接使用
+```javascript
+<oLaBtn>这是一个按钮</oLaBtn>
+```
+## 整体按钮效果展示
 ![button-all](https://github.com/wawow/olapic/raw/master/button/button-all.jpg)
+## 代码示例
 ### 默认按钮
 ```javascript
 <oLaBtn>这是一个按钮</oLaBtn>
@@ -75,3 +79,15 @@ classStyle
 ```javascript
 <oLaBtn classStyle="width:200rpx;">按钮自定义</oLaBtn>
 ```
+
+### 属性
+| 名称     | 类型    | 是否必须  | 默认  | 描述   |
+|---------|---------|----------|------|-------|
+| type    | String  | 否       | 空 | 按钮类型，primary、warn、danger |
+| size    | String  | 否       | 空 | 按钮大小，值有md、sm、xs |
+| inverse   | Boolean | 否       | false | 按钮反转状态，默认为false |
+| fit   | Boolean | 否       | false | 按钮并列状态，默认为false |
+| disabled | Boolean | 否      | false | 按钮是否禁用，默认为false |
+| loading | Boolean | 否       | false | 按钮加载状态，默认为false |
+| isLast | Boolean | 否       | false | 按钮是否有下边距，默认为false |
+| classStyle | String | 否       | 空 | 按钮自定义样式，例如：width:200px; |

@@ -14,7 +14,7 @@
     vertical-align: middle;
 }
 
-.oLa-btn::after {
+.oLa-btn:after {
     border-color: #ababab;
 }
 
@@ -23,7 +23,7 @@
     background-color: #5797FB;
 }
 
-.oLa-btn--primary::after {
+.oLa-btn--primary:after {
     border-color: #5797FB;
 }
 
@@ -32,7 +32,7 @@
     background-color: #FFA023;
 }
 
-.oLa-btn--warn::after {
+.oLa-btn--warn:after {
     border-color: #FFA023;
 }
 
@@ -41,7 +41,7 @@
     background-color: #f44;
 }
 
-.oLa-btn--danger::after {
+.oLa-btn--danger:after {
     border-color: #e33;
 }
 
@@ -126,7 +126,7 @@
     opacity: 1!important;
 }
 
-.oLa-btn.oLa-btn--disabled::after {
+.oLa-btn.oLa-btn--disabled:after {
     border-color: #e5e5e5!important;
 }
 
