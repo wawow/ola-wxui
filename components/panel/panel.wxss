@@ -4,10 +4,10 @@
 }
 
 .oLa-panel--title {
-    font-size: 32rpx;
+    font-size: 36rpx;
     line-height: 1;
     color: #999;
-    padding: 30rpx;
+    padding: 30rpx 20rpx;
 }
 
 .oLa-panel--content {
@@ -15,6 +15,7 @@
     background: #fff;
     overflow: hidden;
     padding: 20rpx;
+    font-size: 32rpx;
 }
 
 .oLa-panel--content:after {

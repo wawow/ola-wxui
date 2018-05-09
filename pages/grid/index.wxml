@@ -1,0 +1,2 @@
+<!--grid.wxml-->
+<oLaGrid grid="{{grids}}" num="4"></oLaGrid>

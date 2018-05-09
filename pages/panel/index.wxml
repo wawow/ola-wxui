@@ -1,0 +1,6 @@
+<!--panel.wxml-->
+<view class="oLa-demo">
+    <oLaPanel>不带标题的面板内容</oLaPanel>
+    <oLaPanel title="标题">带标题的面板内容</oLaPanel>
+    <oLaPanel title="标题" hideBorder>不带上下边框的面板内容</oLaPanel>
+</view>

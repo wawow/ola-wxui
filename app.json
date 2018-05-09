@@ -2,7 +2,8 @@
     "pages": [
         "pages/index/index",
         "pages/btns/index",
-        "pages/logs/logs"
+        "pages/grid/index",
+        "pages/panel/index"
     ],
     "window": {
         "backgroundTextStyle": "light",

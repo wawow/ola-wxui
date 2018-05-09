@@ -2,7 +2,7 @@
 
 ## 使用方法
 在对应的页面json文件中引用多button组件
-```
+```javascript
 "usingComponents": {
     "oLaBtn": "/components/btn/btn",
     "oLaBtnGroup": "/components/btn-group/btn-group",
@@ -10,7 +10,7 @@
 ```
 
 ## 代码示例
-```
+```javascript
 <oLaBtnGroup>
     <oLaBtn type="primary">标准按钮</oLaBtn>
     <oLaBtn type="primary" inverse>标准按钮</oLaBtn>

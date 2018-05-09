@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "Panel 面板",
+    "usingComponents": {
+        "oLaPanel": "/components/panel/panel"
+    }
+}
