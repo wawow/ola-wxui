@@ -78,6 +78,13 @@
     -webkit-transform: scaleY(0.5);
 }
 
+.oLa-grids--none-border .oLa-grid:after,
+.oLa-grids--none-border .oLa-grid:before,
+.oLa-grids--none-border:after,
+.oLa-grids--none-border:before {
+    border: none;
+}
+
 .oLa-grid--icon {
     margin: 0 auto;
 }
@@ -111,7 +118,7 @@
 .oLa-grid--label {
     display: block;
     text-align: center;
-    color: #000000;
+    color: #1f1f1f;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;

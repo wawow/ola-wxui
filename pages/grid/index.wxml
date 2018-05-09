@@ -1,2 +1,6 @@
 <!--grid.wxml-->
-<oLaGrid grid="{{grids}}" num="4"></oLaGrid>
+<view class="oLa-demo">
+    <oLaGrid grid="{{grids}}" num="4"></oLaGrid>
+
+    <oLaGrid grid="{{grids}}" num="5" hideBorder></oLaGrid>
+</view>

@@ -1,0 +1,7 @@
+<!--panel.wxml-->
+<view class="oLa-demo">
+    <oLaSteps type="horizon" steps="{{steps}}" showDesc></oLaSteps>
+</view>
+<view class="oLa-demo">
+    <oLaSteps type="vertical" steps="{{steps}}" showDesc></oLaSteps>
+</view>

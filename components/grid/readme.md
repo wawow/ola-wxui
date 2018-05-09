@@ -47,3 +47,16 @@ grids: [
 <oLaGrid grid="{{grids}}" num="4"></oLaGrid>
 <oLaGrid grid="{{grids}}" num="5"></oLaGrid>
 ```
+
+### 参数 hideBorder
+类型: Boolean
+```javascript
+<oLaGrid grid="{{grids}}" num="2" hideBorder></oLaGrid>
+```
+
+### 属性
+| 名称     | 类型    | 是否必须  | 默认  | 描述   |
+|---------|---------|----------|------|-------|
+| grids    | `Array`  | 否       | 空 | 显示内容数组 |
+| num    | `String`  | 否       | 3 | 每行几个显示值，值有`2`、`3`、`4` 、`5` |
+| hideBorder   | `Boolean` | 否       | false | 是否显示边框，默认为false |

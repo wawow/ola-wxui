@@ -29,12 +29,12 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
+			"current": 0,
 			"list": [
 				{
 					"id": 0,
-					"name": "btn",
-					"pathName": "pages/btns/index",
+					"name": "步骤条",
+					"pathName": "pages/steps/index",
 					"query": ""
 				}
 			]

@@ -1,0 +1,10 @@
+<view class="oLa-steps {{ type === 'vertical' ? 'oLa-steps--v' : 'oLa-steps--h' }} oLa-steps--{{ steps.length }}">
+    <view wx:for="{{ steps }}" wx:for-item="step" wx:key="unique" wx:for-index="index" class="oLa-step {{step.done ? 'oLa-step--done' : ''}}">
+        <view class="oLa-step--title">{{ step.text }}</view>
+        <view wx:if="{{ showDesc && step.desc }}" class="oLa-step--title oLa-step--title-desc">{{ step.desc }}</view>
+        <view class="oLa-step--icons">
+            <view class="oLa-step--circle"></view>
+        </view>
+        <view class="oLa-steps--line"></view>
+    </view>
+</view>

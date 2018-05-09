@@ -18,14 +18,9 @@ Page({
                 url: '/pages/panel/index',
                 text: '面板'
             }, {
-                img: 'https://www.maxappa.com/ola/button/button-all.jpg',
-                text: '按钮'
-            }, {
-                img: 'https://www.maxappa.com/ola/button/button-all.jpg',
-                text: '按钮2'
-            }, {
-                img: 'https://www.maxappa.com/ola/button/button-all.jpg',
-                text: '按钮3'
+                img: 'https://github.com/wawow/olapic/raw/master/icon/steps.png',
+                url: '/pages/steps/index',
+                text: '步骤条'
             }
         ]
     },
