@@ -85,7 +85,7 @@ classStyle
 |---------|---------|----------|------|-------|
 | type    | String  | 否       | 空 | 按钮类型，primary、warn、danger |
 | size    | String  | 否       | 空 | 按钮大小，值有md、sm、xs |
-| inverse   | Boolean | 否       | false | 按钮反转状态，默认为false |
+| inverse   | Boolean | 否       | false | 按钮反转状态，默认为false |
 | fit   | Boolean | 否       | false | 按钮并列状态，默认为false |
 | disabled | Boolean | 否      | false | 按钮是否禁用，默认为false |
 | loading | Boolean | 否       | false | 按钮加载状态，默认为false |
