@@ -1,0 +1,5 @@
+<view class="oLa-stepper oLa-stepper--{{size}}">
+    <button class="oLa-stepper--btn oLa-stepper--minus {{ stepper <= min ? 'oLa-stepper--disabled' : '' }}" disabled="{{ stepper <= min }}" hover-class="button-hover" bindtap="stepperMinus">-</button>
+    <input class="oLa-stepper--text {{ min >= max ? 'oLa-stepper--text-disabled' : '' }}" type="number" value="{{ stepper }}" disabled="{{ min >= max }}" bindblur="stepperBlur" />
+    <button class="oLa-stepper--btn oLa-stepper--plus {{ stepper >= max ? 'oLa-stepper--disabled' : '' }}" disabled="{{ stepper >= max }}" bindtap="stepperPlus">+</button>
+</view>

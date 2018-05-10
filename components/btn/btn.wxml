@@ -1,4 +1,5 @@
-<button class="oLa-btn {{type ? 'oLa-btn--'+type : ''}} {{size ? 'oLa-btn--'+size : ''}} {{inverse ? 'oLa-btn--inverse' : ''}} {{disabled ? 'oLa-btn--disabled' : ''}} {{fit ? 'oLa-btn--fit' : ''}} {{ isLast ? 'oLa-btn--last-child' : '' }}" style="{{classStyle ? classStyle : ''}}">
+<button class="oLa-btn {{type ? 'oLa-btn--'+type : ''}} {{size ? 'oLa-btn--'+size : ''}} {{inverse ? 'oLa-btn--inverse' : ''}} {{disabled ? 'oLa-btn--disabled' : ''}} {{fit ? 'oLa-btn--fit' : ''}} {{ isLast ? 'oLa-btn--last-child' : '' }}" hover-class="button-hover"
+    style="{{classStyle ? classStyle : ''}}">
     <view wx:if="{{loading}}" class="oLa-btn--loading"></view>
     <slot></slot>
 </button>

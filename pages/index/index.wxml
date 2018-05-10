@@ -1,4 +1,4 @@
 <!--index.wxml-->
 <oLaPanel title="组件列表">
-    <oLaGrid grid="{{grids}}" num="4"></oLaGrid>
+    <oLaGrid grid="{{grids}}" num="3"></oLaGrid>
 </oLaPanel>

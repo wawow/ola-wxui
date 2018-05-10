@@ -21,6 +21,10 @@ Page({
                 img: 'https://github.com/wawow/olapic/raw/master/icon/steps.png',
                 url: '/pages/steps/index',
                 text: '步骤条'
+            }, {
+                img: 'https://github.com/wawow/olapic/raw/master/icon/stepper.png',
+                url: '/pages/stepper/index',
+                text: '步进器'
             }
         ]
     },

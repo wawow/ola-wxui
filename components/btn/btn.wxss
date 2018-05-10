@@ -89,10 +89,6 @@
     margin-bottom: 0;
 }
 
-.button-hover {
-    opacity: 0.85;
-}
-
 .oLa-btn--loading {
     width: 34rpx;
     height: 34rpx;
@@ -133,4 +129,8 @@
 .oLa-btn--last-child {
     margin-bottom: 0;
     margin-right: 0;
+}
+
+.button-hover {
+    opacity: 0.85;
 }

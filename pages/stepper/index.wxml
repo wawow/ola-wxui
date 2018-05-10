@@ -1,0 +1,11 @@
+<!--stepper.wxml-->
+<oLaPanel title="标准尺寸">
+    <oLaStepper stepper="{{ stepper1.stepper }}" min="{{ stepper1.min }}" max="{{ stepper1.max }}" data-component-id="stepper1" bind:change="stepperChange"></oLaStepper>
+</oLaPanel>
+
+<oLaPanel title="小尺寸">
+    <oLaStepper stepper="{{ stepper2.stepper }}" min="{{ stepper2.min }}" max="{{ stepper2.max }}" size="sm" data-component-id="stepper2" bind:change="stepperChange"></oLaStepper>
+</oLaPanel>
+<oLaPanel title="超小尺寸">
+    <oLaStepper stepper="{{ stepper3.stepper }}" step="{{stepper3.step}}" min="{{ stepper3.min }}" max="{{ stepper3.max }}" size="xs" data-component-id="stepper3" bind:change="stepperChange"></oLaStepper>
+</oLaPanel>

@@ -1,5 +1,5 @@
 {
-    "name": "ola-wxui",
+    "name": "oLaUI",
     "version": "0.0.4",
     "description": "这是一个关于微信小程序的UI包，里面包含了布局，按钮，功能的一些封装。让你在开发小程序的过程中专注于业务逻辑的处理，在一些标准UI方面可以快速使用标准代码进行添加。",
     "main": "app.js",
@@ -7,7 +7,7 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [
-        "ola",
+        "oLa",
         "wxui"
     ],
     "author": "jackiejiang",

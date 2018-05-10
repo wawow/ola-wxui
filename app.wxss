@@ -1,7 +1,4 @@
 /**app.wxss**/
-/**btn.wxss**/
-@import "wxss/theme.wxss";
-
 .oLa-demo {
     padding: 10rpx;
 }

@@ -1,0 +1,82 @@
+.oLa-stepper {
+    color: #5797FB;
+}
+
+.oLa-stepper--btn {
+    display: inline-block;
+    border-radius: 0;
+    background: none;
+    box-sizing: border-box;
+    vertical-align: middle;
+    color: #5797FB;
+    height: 30px;
+    line-height: 28px;
+    width: 30px;
+    padding: 0;
+}
+
+.oLa-stepper--btn:nth-child(1):after {
+    border: 2px solid #5797FB;
+    border-radius: 8px;
+}
+
+.oLa-stepper--btn:nth-child(3):after {
+    border: 2px solid #5797FB;
+    border-radius: 8px;
+}
+
+.oLa-stepper .oLa-stepper--text {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: middle;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    font-weight: bold;
+}
+
+.oLa-stepper .oLa-stepper--minus {
+    border-right: none;
+    border-radius: 2px 0 0 2px;
+}
+
+.oLa-stepper .oLa-stepper--disabled {
+    background: #f8f8f8;
+    color: #bbb;
+}
+
+.oLa-stepper--text-disabled {
+    background: none;
+    color: #bbb;
+}
+
+.oLa-stepper .oLa-stepper--disabled:after {
+    border-color: #bbb;
+}
+
+.oLa-stepper--sm .oLa-stepper--btn {
+    width: 24px;
+    height: 24px;
+    line-height: 22px;
+}
+
+.oLa-stepper--sm .oLa-stepper--text {
+    width: 42px;
+}
+
+.oLa-stepper--xs .oLa-stepper--btn {
+    width: 18px;
+    height: 18px;
+    line-height: 16px;
+}
+
+.oLa-stepper--xs .oLa-stepper--text {
+    width: 34px;
+}
+
+.button-hover {
+    opacity: 0.75;
+}
