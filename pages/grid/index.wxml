@@ -1,6 +1,10 @@
 <!--grid.wxml-->
-<view class="oLa-demo">
+<oLaPanel title="标准九宫格">
+    <oLaGrid grid="{{grids}}" num="3"></oLaGrid>
+</oLaPanel>
+<oLaPanel title="16九宫格">
     <oLaGrid grid="{{grids}}" num="4"></oLaGrid>
-
-    <oLaGrid grid="{{grids}}" num="5" hideBorder></oLaGrid>
-</view>
+</oLaPanel>
+<oLaPanel title="16九宫格不带线">
+    <oLaGrid grid="{{grids}}" num="4" hideBorder></oLaGrid>
+</oLaPanel>

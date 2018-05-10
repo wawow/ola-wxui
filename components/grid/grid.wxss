@@ -2,8 +2,7 @@
     position: relative;
     overflow: hidden;
 }
-
-.oLa-grids:before {
+/* .oLa-grids:before {
     content: " ";
     position: absolute;
     left: 0;
@@ -27,29 +26,37 @@
     color: #bfbfbf;
     -webkit-transform-origin: 0 0;
     -webkit-transform: scaleX(0.5);
+} */
+.oLa-grid-box {
+    margin-bottom: -1px;
+    margin-right: -1px;
+    overflow: hidden;
 }
 
 .oLa-grid {
     position: relative;
     float: left;
-    padding: 20px 10px;
     box-sizing: border-box;
 }
 
 .oLa-grid--2 {
     width: 50%;
+    padding: 50rpx 20rpx;
 }
 
 .oLa-grid--3 {
     width: 33.33333333%;
+    padding: 30rpx 15rpx;
 }
 
 .oLa-grid--4 {
     width: 25%;
+    padding: 16rpx 10rpx;
 }
 
 .oLa-grid--5 {
     width: 20%;
+    padding: 12rpx 6rpx;
 }
 
 .oLa-grid:before {
@@ -90,23 +97,23 @@
 }
 
 .oLa-grid--2 .oLa-grid--icon {
-    width: 40px;
-    height: 40px;
+    width: 80rpx;
+    height: 80rpx;
 }
 
 .oLa-grid--3 .oLa-grid--icon {
-    width: 36px;
-    height: 36px;
+    width: 72rpx;
+    height: 72rpx;
 }
 
 .oLa-grid--4 .oLa-grid--icon {
-    width: 32px;
-    height: 32px;
+    width: 64rpx;
+    height: 64rpx;
 }
 
 .oLa-grid--5 .oLa-grid--icon {
-    width: 28px;
-    height: 28px;
+    width: 56rpx;
+    height: 56rpx;
 }
 
 .oLa-grid--icon-pic {
@@ -122,21 +129,24 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    margin-top: 8px;
 }
 
 .oLa-grid--2 .oLa-grid--label {
     font-size: 18px;
+    margin-top: 25rpx;
 }
 
 .oLa-grid--3 .oLa-grid--label {
     font-size: 16px;
+    margin-top: 15rpx;
 }
 
 .oLa-grid--4 .oLa-grid--label {
     font-size: 14px;
+    margin-top: 10rpx;
 }
 
 .oLa-grid--5 .oLa-grid--label {
     font-size: 12px;
+    margin-top: 6rpx;
 }

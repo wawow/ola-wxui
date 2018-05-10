@@ -132,7 +132,7 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    margin-left: 60rpx;
+    margin-left: 32px;
 }
 
 .oLa-steps--v .oLa-step--title-desc {
@@ -145,7 +145,7 @@
     height: 100%;
     background: #bfbfbf;
     position: absolute;
-    left: 30rpx;
+    left: 15px;
     top: -50%;
     z-index: 1;
 }
@@ -153,7 +153,7 @@
 .oLa-steps--v .oLa-step--icons {
     position: absolute;
     top: 50%;
-    left: 23rpx;
+    left: 12px;
     -webkit-transform: translate(0,-50%);
     background-color: #fff;
     z-index: 3;
@@ -179,7 +179,7 @@
 }
 
 .oLa-steps--v .oLa-step--done .oLa-step--icons {
-    left: 20rpx;
+    left: 11px;
 }
 
 .oLa-steps--v .oLa-step--done .oLa-step--circle {

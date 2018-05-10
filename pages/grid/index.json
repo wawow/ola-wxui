@@ -1,6 +1,7 @@
 {
     "navigationBarTitleText": "Grid 九宫格",
     "usingComponents": {
-        "oLaGrid": "/components/grid/grid"
+        "oLaGrid": "/components/grid/grid",
+        "oLaPanel": "/components/panel/panel"
     }
 }
