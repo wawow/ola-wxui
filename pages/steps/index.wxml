@@ -1,9 +1,9 @@
 <!--panel.wxml-->
 <oLaPanel title="横向步骤条">
-    <oLaSteps type="horizon" steps="{{steps}}" showDesc></oLaSteps>
+    <oLaSteps steps="{{steps}}" showDesc></oLaSteps>
 </oLaPanel>
 <oLaPanel title="横向步骤条不带说明">
-    <oLaSteps type="horizon" steps="{{steps}}"></oLaSteps>
+    <oLaSteps steps="{{steps}}"></oLaSteps>
 </oLaPanel>
 <oLaPanel title="纵向步骤条">
     <oLaSteps type="vertical" steps="{{steps}}" showDesc></oLaSteps>

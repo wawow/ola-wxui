@@ -1,4 +1,4 @@
-# oLa button按钮
+# oLa Button 按钮
 
 ## 使用方法
 在对应的页面json文件中引用button组件

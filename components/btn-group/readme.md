@@ -1,4 +1,4 @@
-# oLa button-group按钮组
+# oLa Button-group 按钮组
 
 ## 使用方法
 在对应的页面json文件中引用多button组件

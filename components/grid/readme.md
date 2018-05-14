@@ -1,7 +1,7 @@
-# oLa grid九宫格
+# oLa Grid 九宫格
 
 ## 使用方法
-在对应的页面json文件中引用多grid组件
+在对应的页面json文件中引用grid组件
 ```javascript
 "usingComponents": {
     "oLaGrid": "/components/grid/grid"
