@@ -5,7 +5,8 @@
         "pages/grid/index",
         "pages/panel/index",
         "pages/steps/index",
-        "pages/stepper/index"
+        "pages/stepper/index",
+        "pages/footer/index"
     ],
     "window": {
         "backgroundTextStyle": "light",

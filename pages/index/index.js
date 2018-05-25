@@ -1,30 +1,35 @@
 //index.js
 //获取应用实例
-const app = getApp()
+const app = getApp();
+const baseUrl = 'https://www.maxappa.com/ola/';
 
 Page({
     data: {
         grids: [
             {
-                img: 'https://github.com/wawow/olapic/raw/master/icon/button.png',
+                img: baseUrl + 'icon/button.png',
                 url: '/pages/btns/index',
                 text: '按钮'
             }, {
-                img: 'https://github.com/wawow/olapic/raw/master/icon/grids.png',
+                img: baseUrl + 'icon/grids.png',
                 url: '/pages/grid/index',
                 text: '九宫格'
             }, {
-                img: 'https://github.com/wawow/olapic/raw/master/icon/panel.png',
+                img: baseUrl + 'icon/panel.png',
                 url: '/pages/panel/index',
                 text: '面板'
             }, {
-                img: 'https://github.com/wawow/olapic/raw/master/icon/steps.png',
+                img: baseUrl + 'icon/steps.png',
                 url: '/pages/steps/index',
                 text: '步骤条'
             }, {
-                img: 'https://github.com/wawow/olapic/raw/master/icon/stepper.png',
+                img: baseUrl + 'icon/stepper.png',
                 url: '/pages/stepper/index',
                 text: '步进器'
+            }, {
+                img: baseUrl + 'icon/footer.png',
+                url: '/pages/footer/index',
+                text: '页脚'
             }
         ]
     },

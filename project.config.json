@@ -33,8 +33,8 @@
 			"list": [
 				{
 					"id": 0,
-					"name": "步进器",
-					"pathName": "pages/stepper/index",
+					"name": "页脚",
+					"pathName": "pages/footer/index",
 					"query": ""
 				}
 			]

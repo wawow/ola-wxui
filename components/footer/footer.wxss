@@ -1,0 +1,47 @@
+.oLa-footer {
+    color: #808080;
+    font-size: 28rpx;
+    text-align: center;
+}
+
+.oLa-footer--fixed {
+    position: fixed;
+    bottom: 0.26rem;
+    left: 0;
+    right: 0;
+}
+
+.oLa-footer--link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0.62rem;
+    position: relative;
+    font-size: 32rpx;
+    color: #586C94;
+}
+
+.oLa-footer--link:first-child:before {
+    display: none;
+}
+
+.oLa-footer--link:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    bottom: 0;
+    border-left: 1px solid #bfbfbf;
+    color: #bfbfbf;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scaleX(0.5);
+    transform: scaleX(0.5);
+    left: -0.65rem;
+    top: 0.18rem;
+    bottom: 0.18rem;
+}
+
+.oLa-footer--text {
+    margin: 0.1rem 0;
+}

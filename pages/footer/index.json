@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "Footer 页脚",
+    "usingComponents": {
+        "oLaPanel": "/components/panel/panel",
+        "oLaFooter": "/components/footer/footer"
+    }
+}

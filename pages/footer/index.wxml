@@ -1,0 +1,15 @@
+<!--panel.wxml-->
+<oLaPanel title="没有链接页脚">
+    <oLaFooter footerLink="{{footerLink}}">
+        Copyright © 2008-2019 oLa
+    </oLaFooter>
+</oLaPanel>
+<oLaPanel title="有链接页脚">
+    <oLaFooter footerLink="{{footerLink}}" showLink>
+        Copyright © 2008-2019 oLa
+    </oLaFooter>
+</oLaPanel>
+
+<oLaFooter footerLink="{{footerLink}}" fixedBottom showLink>
+    Copyright © 2008-2019 oLa
+</oLaFooter>

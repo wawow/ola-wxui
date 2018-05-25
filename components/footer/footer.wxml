@@ -1,0 +1,10 @@
+<view class="oLa-footer {{fixedBottom ? 'oLa-footer--fixed' : ''}}">
+    <view wx:if="{{showLink}}">
+        <navigator wx:for="{{ footerLink }}" wx:for-item="links" wx:key="unique" wx:for-index="index" url="{{ links.url }}" class="oLa-footer--link" open-type="{{ links.opentype ? links.opentype : 'navigate' }}">
+            {{ links.text }}
+        </navigator>
+    </view>
+    <view class="oLa-footer--text">
+        <slot></slot>
+    </view>
+</view>
